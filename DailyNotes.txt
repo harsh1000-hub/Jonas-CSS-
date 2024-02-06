@@ -1,0 +1,8 @@
+🎯 Section[1]:- HTML
+1. Always do best pratices when try to write HTML means like in place <b></b> tag use <strong></strong> according to HTML5.
+2. <article></article>
+3. <aside></aside>  => basically used a secondary information tag with respect to there parent tag
+4. <header></header> 
+5. <footer></footer>
+6. <nav></nav> => groups all the essential link to inside the nav tag.
+
