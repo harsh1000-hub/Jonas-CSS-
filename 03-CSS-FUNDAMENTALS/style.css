@@ -1,0 +1,75 @@
+/*list selector that select more than one element and set property all that element*/
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  /*this is known as list selector*/
+  font-family: sans-serif;
+}
+
+/*desendendants selector target only specific elemenet*/
+/*nested selector footer -> p*/
+/* footer p {
+  font-size: 15px;
+  font-style: italic;
+}
+article header p {
+  font-style: italic;
+} */
+
+/* classes represent by dot(.) implementation of classes in css below */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+/* id represent by (#) implementation of classes in css below*/
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 26px;
+  /* font-family: sans-serif; */
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  /* font-family: sans-serif; */
+}
+
+h3 {
+  font-size: 30px;
+  /* font-family: sans-serif; */
+}
+
+h4 {
+  font-size: 20px;
+  /* font-family: sans-serif; */
+  text-transform: uppercase; /* this basically transform the text into lower or uppercase or capital case*/
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  /* font-family: sans-serif; */
+  /* line-height: 1.5px; -> this set the gap between to line about 1.5px*/
+  line-height: 1.5px;
+}
+
+li {
+  font-style: 20px;
+  /* font-family: sans-serif; */
+}

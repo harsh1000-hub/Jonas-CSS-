@@ -8,3 +8,37 @@
 
 ✅ Complete HTML5
 ==================================================================================================================================
+
+⭐ CSS:-
+
+🎯 Section[2-22]:-
+1. Three types of CSS are:- 
+   a. inline css => that is used inside html elemeent and inline css in not a good pratice.
+   b. internal css => that is used inside head tag and this is also used when there is small a content in a web page.
+    <head> 
+    <style>
+       h1{
+          color:"red";
+       }
+   </style>
+   </head>
+   c. External CSS=> means CSS basically in separate file.
+      * And to connect to html file inside
+       <head> 
+         <link href="style.css" rel="stylesheet"/>
+      </head>
+
+🎯 Section[2-23]:-
+1. By default in css font-size property give 16px size by default.
+
+🎯 Section[2-24]:-
+1. Learn about list selector and desencendants selector.
+
+🎯 Section[2-24]:-
+1. Learn about classes and id in CSS because above desencendants selector encode the structure of html into css part that is not a best pratices so from now on the place of desencendants selector we use classes or id in css to style the html.
+2. In css every id must be have unique name and classes may be same name or may not be.
+3. In css when you write id or class name and id or class name have multiple word so split wiht (-) like relater-author for best pratices.
+
+🎯 Section[2-25]:-
+1. Learn about id and classes in css.
+2. In real world most of time we use classes instead of id.
