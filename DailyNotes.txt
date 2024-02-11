@@ -1,4 +1,4 @@
-🎯 Section[1]:- HTML
+🎯 Section[2]:- HTML
 1. Always do best pratices when try to write HTML means like in place <b></b> tag use <strong></strong> according to HTML5.
 2. <article></article>
 3. <aside></aside>  => basically used a secondary information tag with respect to there parent tag
@@ -11,7 +11,7 @@
 
 ⭐ CSS:-
 
-🎯 Section[2-22]:-
+🎯 Section[3-22]:-
 1. Three types of CSS are:- 
    a. inline css => that is used inside html elemeent and inline css in not a good pratice.
    b. internal css => that is used inside head tag and this is also used when there is small a content in a web page.
@@ -28,13 +28,13 @@
          <link href="style.css" rel="stylesheet"/>
       </head>
 
-🎯 Section[2-23]:-
+🎯 Section[3-23]:-
 1. By default in css font-size property give 16px size by default.
 
-🎯 Section[2-24]:-
+🎯 Section[3-24]:-
 1. Learn about list selector and desencendants selector.
 
-🎯 Section[2-24]:-
+🎯 Section[3-24]:-
 1. Learn about classes and id in CSS because above desencendants selector encode the structure of html into css part that is not a best pratices so from now on the place of desencendants selector we use classes or id in css to style the html.
 2. In css every id must be have unique name and classes may be same name or may not be.
 3. In css when you write id or class name and id or class name have multiple word so split wiht (-) like relater-author for best pratices.
@@ -42,3 +42,36 @@
 🎯 Section[2-25]:-
 1. Learn about id and classes in css.
 2. In real world most of time we use classes instead of id.
+
+🎯 Section[2-26]:-
+1. Learn about how many types of color format in css there are types :- 
+   a. rgb (red,green,blue) => combination of these 2 colors produced 16.8 millions colors.  rgb(257,257,257); and if we want color transperancy we 
+      add rgba(255,255,255,1.3) 
+   b. hexadecimal like #00ffff and shorthand notation of hexadecimal color are if three are same like #444444 -> #444
+   c. hsl color format.
+
+2. Apply color to h1,h2,h3 by using list selector.
+3. Learn about three property in css:-
+   a. color: "somecolor" -> for color the text
+   b. backgroundColor: "somecolor" -> for color the whole element.
+   c. border:- 5px(border-width) solid(border-style) color(border-color);
+      Here are varient of border property are :- border-top,border-bottom,border-left,border-right.
+4. 3 types of selector are there in css:- 1. id selector 2. class selector 3. elemeent selector for ex:- aside {}
+
+🎯 Section[2-27]:-
+1. Learn about Psuedo class -> means a more consise way to target specific child element and style them.
+For ex:- if we have two li element and style only first-child of both li element to bold.
+         li:first-child{
+            font-weight:bold;
+         }
+2. However Psuedo class not work well when parent element have a lot of child element.
+
+🎯 Section[2-28]:-
+1. Learn about how to style the anchor tag using link Psuedo classes.
+2. Learn about new property text-decoration.
+3. visited pseduo class means style that link that already clicked
+   code:- a:visited{
+      color:orange;
+   }
+4. Learn about hover and active pseduo class for anchor tag styling in css -> For revision checkout style.css file.
+5. above 4 pseduo class for anchor tag used in same manner -> Link->visited->hover->active

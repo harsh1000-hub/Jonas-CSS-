@@ -7,8 +7,18 @@ p,
 li {
   /*this is known as list selector*/
   font-family: sans-serif;
+  color: #444444;
 }
 
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
 /*desendendants selector target only specific elemenet*/
 /*nested selector footer -> p*/
 /* footer p {
@@ -73,3 +83,55 @@ li {
   font-style: 20px;
   /* font-family: sans-serif; */
 }
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+ {
+  /*Psuedo class below to style li element specific child element*/
+}
+li:first-child {
+  font-weight: bold;
+}
+
+li:nth-child(even) {
+  font-style: italic;
+  color: rebeccapurple;
+}
+
+/* Misconception it won't work*/
+article p:first-child {
+  color: red;
+}
+
+/*Styling the link*/
+/*link pseudo class*/
+a:link {
+  /* this a:link only that anchor which have href attribute*/
+  color: #1098ad;
+  text-decoration: none; /* this none remove the underline from links*/
+}
+
+/*visited pseduo class means style that link that already clicked*/
+a:visited {
+  color: #1098ad; /*as link I clicked already so converted into orange-color if we use orange-color*/
+}
+
+/*hover pseduo class use when you hover link style will change*/
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+  /* background-color: greenyellow; */
+}
+
+/*active pseduo class use when you click on the link then link style will change*/
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/*above 4 pseduo class for anchor tag used in same manner -> Link->visited->hover->activ*/
