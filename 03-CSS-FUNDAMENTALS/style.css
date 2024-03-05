@@ -1,3 +1,8 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
 /*list selector that select more than one element and set property all that element*/
 h1,
 h2,
@@ -16,8 +21,18 @@ h3 {
   color: #1098ad;
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
 .main-header {
-  background-color: #f7f7f7;
+  background-color: rgba(236, 213, 213, 0.695);
+  padding: 20px 40px; /*this is shorthand padding first value represent paddingleft and paddingright - other value left-right*/
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
 }
 /*desendendants selector target only specific elemenet*/
 /*nested selector footer -> p*/
@@ -48,6 +63,10 @@ article header p {
   font-size: 16px;
 }
 
+article {
+  margin-bottom: 60px;
+}
+
 h1 {
   font-size: 26px;
   /* font-family: sans-serif; */
@@ -58,11 +77,14 @@ h1 {
 h2 {
   font-size: 40px;
   /* font-family: sans-serif; */
+  margin-bottom: 20px;
 }
 
 h3 {
   font-size: 30px;
   /* font-family: sans-serif; */
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -77,6 +99,7 @@ p {
   /* font-family: sans-serif; */
   /* line-height: 1.5px; -> this set the gap between to line about 1.5px*/
   line-height: 1.5px;
+  margin-bottom: 15px;
 }
 
 li {
@@ -88,6 +111,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
 }
 
  {

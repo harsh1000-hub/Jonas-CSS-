@@ -56,7 +56,7 @@
    b. backgroundColor: "somecolor" -> for color the whole element.
    c. border:- 5px(border-width) solid(border-style) color(border-color);
       Here are varient of border property are :- border-top,border-bottom,border-left,border-right.
-4. 3 types of selector are there in css:- 1. id selector 2. class selector 3. elemeent selector for ex:- aside {}
+4. 3 types of selector are there in css:- 1. id selector 2. class selector 3. element selector for ex:- aside {}
 
 🎯 Section[2-27]:-
 1. Learn about Psuedo class -> means a more consise way to target specific child element and style them.
@@ -74,4 +74,33 @@ For ex:- if we have two li element and style only first-child of both li element
       color:orange;
    }
 4. Learn about hover and active pseduo class for anchor tag styling in css -> For revision checkout style.css file.
-5. above 4 pseduo class for anchor tag used in same manner -> Link->visited->hover->active
+5. above 4 pseduo class for anchor tag used in same manner -> Link->visited->hover->active.
+
+🎯 Section[2-29]:-
+1. Learn Chrome web tools.
+
+🎯 Section[2-30]:-
+1. Learn about the priority means which selectors give highest priority.
+2. id > class > pseduo class > element selector
+
+🎯 Section[2-31]:-
+1. Learn about universal selector (*) that applies to every element in the page.
+2. Learn about inheritance means how selector works in css using inheritance concept.
+
+🎯 Section[2-32]:-
+1. Complete css challenge in Section 2.
+
+🎯 Section[2-33]:-
+1. Learn about CSS box model how it work.
+
+🎯 Section[2-34]:-
+1. Margin in between elements.
+
+🎯 Section[2-35]:-
+1. Learn about how to set width and in place pixel we use percentage so that will be responsive.
+
+🎯 Section[2-36]:-
+1. How to center a page using width auto concept 
+
+🎯 Section[2-37]:-
+1. Complete jonas challenge.

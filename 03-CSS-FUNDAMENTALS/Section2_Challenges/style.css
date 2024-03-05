@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+article {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  width: 825px;
+  margin: 45px auto;
+}
+.main-heading {
+  background-color: #efefef;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.list-item {
+  margin: auto 19px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-top: solid black 4px;
+  padding: 15px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.shipping {
+  text-transform: uppercase;
+  color: grey;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 20px;
+}
+
+li {
+  list-style-type: square;
+  margin-bottom: 5px;
+}
