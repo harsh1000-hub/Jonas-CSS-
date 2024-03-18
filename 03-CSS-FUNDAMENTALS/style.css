@@ -3,6 +3,11 @@
   padding: 0;
 } */
 
+body {
+  position: relative;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+}
 /*list selector that select more than one element and set property all that element*/
 h1,
 h2,
@@ -98,7 +103,7 @@ p {
   font-size: 18px;
   /* font-family: sans-serif; */
   /* line-height: 1.5px; -> this set the gap between to line about 1.5px*/
-  line-height: 1.5px;
+  /* line-height: 1.5px; */
   margin-bottom: 15px;
 }
 
@@ -114,9 +119,20 @@ aside {
   padding: 50px 0;
 }
 
- {
-  /*Psuedo class below to style li element specific child element*/
+/*Psuedo class below to style li element specific child element*/
+
+nav a:link {
+  display: inline-block;
+  margin-right: 20px;
+  /* padding: 10px; */
+  margin-top: 10px;
+  background-color: violet;
 }
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 li:first-child {
   font-weight: bold;
 }
@@ -158,4 +174,38 @@ a:active {
   font-style: italic;
 }
 
-/*above 4 pseduo class for anchor tag used in same manner -> Link->visited->hover->activ*/
+/*above 4 pseduo class for anchor tag used in same manner -> Link->visited->hover->active*/
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+}
+
+/* Pseudo elements */
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h2 {
+  background-color: orange;
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: yellow;
+  color: #000;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+  display: inline-block; /* by default it is inline display type */
+  position: absolute;
+  /* use negative lenght concept */
+  top: -15px;
+  right: -20px; /* means negative length work in opposite direction */
+}

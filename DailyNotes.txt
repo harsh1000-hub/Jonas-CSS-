@@ -37,7 +37,7 @@
 🎯 Section[3-24]:-
 1. Learn about classes and id in CSS because above desencendants selector encode the structure of html into css part that is not a best pratices so from now on the place of desencendants selector we use classes or id in css to style the html.
 2. In css every id must be have unique name and classes may be same name or may not be.
-3. In css when you write id or class name and id or class name have multiple word so split wiht (-) like relater-author for best pratices.
+3. In css when you write id or class name and id or class name have multiple word so split with (-) like relater-author for best pratices.
 
 🎯 Section[2-25]:-
 1. Learn about id and classes in css.
@@ -47,7 +47,7 @@
 1. Learn about how many types of color format in css there are types :- 
    a. rgb (red,green,blue) => combination of these 2 colors produced 16.8 millions colors.  rgb(257,257,257); and if we want color transperancy we 
       add rgba(255,255,255,1.3) 
-   b. hexadecimal like #00ffff and shorthand notation of hexadecimal color are if three are same like #444444 -> #444
+   b. hexadecimal like #00ffff and shorthand notation of hexadecimal color are if three are same like #444444 -> #444 
    c. hsl color format.
 
 2. Apply color to h1,h2,h3 by using list selector.
@@ -104,3 +104,31 @@ For ex:- if we have two li element and style only first-child of both li element
 
 🎯 Section[2-37]:-
 1. Complete jonas challenge.
+
+🎯 Section[2-38]:-
+1. Box model does not work for inline element(anchor tag, em tag) rather than work for block level(h1 tag, h2 tag) elements.
+2. Means horizontal margin padding works in inline element but vertical margin padding does not work.
+3. display:block // which basically convert the inline element to block level element.
+4. display:inline // which basically convert the block level element to inline element.
+5. display:inline-block // which is a combination of block level and inline level element.
+
+🎯 Section[2-39]:-
+1. Learn about position absolute with respect to position relative.
+2. position absolute overflow that content from the page.
+3. whenever you use position absolute Always use with respect to some parent tag or by default use body as a parent tag and set position relative in body.
+
+🎯 Section[2-40]:-
+1. Learn abour Psuedo element and that is represent by :: and also adjacent pseduo element that represent by +.
+2. And is you want to give some small style so give give directly with css pseduo element.
+3. By default display type content type in pseduo after element is inline type.
+
+🎯 Section[2-41]:-
+1. Learn about how to google the things when you stuck in coding.
+
+🎯 Section[2-42]:-
+1. Learn about how to debug the code.
+2. HTML code validator website which checks your html code.
+3. diff checker which compare your code with other code and check the difference b/w both code.
+
+🎯 Section[2-43]:-
+1. Completed challenge 3.
