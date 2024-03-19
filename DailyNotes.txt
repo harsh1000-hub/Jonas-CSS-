@@ -138,3 +138,26 @@ For ex:- if we have two li element and style only first-child of both li element
 
 🔥 Section 4:-
 
+🎯 Section[2-44]:-
+1. Section Intro.
+
+🎯 Section[2-45]:-
+1. Learn about layout in css and there are two types of layout in css first is page layout and other one is component layout.
+2. Three ways to build the layout:- a. Float  b. Flexbox c. CSS Grid.
+
+🎯 Section[2-46]:-
+1. Learn about how to apply float property to css.
+
+🎯 Section[2-47]:-
+1. Learn about how to remove height error using clear property when we use float property in css.
+
+🎯 Section[2-48]:-
+1. Building a simple float layout using float property.
+
+🎯 Section[2-49]:-
+1. Learn about box-sizing is a CSS property that determines how the width and height of an element are calculated, particularly in relation to its padding and border. It has two main values: content-box and border-box.
+
+🎯 Section[2-50]:-
+1. Doing challenge 1 of Section 4.
+2. Completed the challenge 1 of Section 4 with my own effort.
+

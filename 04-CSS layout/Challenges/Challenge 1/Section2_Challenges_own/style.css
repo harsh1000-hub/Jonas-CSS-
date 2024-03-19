@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+article {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  width: 825px;
+  margin: 45px auto;
+  position: relative;
+}
+.main-heading {
+  background-color: #efefef;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.list-item {
+  margin: auto 19px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-top: solid black 4px;
+  padding: 15px;
+  width: 100%;
+  margin-top: -8px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+h3 {
+  text-transform: uppercase;
+  /* margin-top: 11px;
+  margin-bottom: 15px; */
+  font-size: medium;
+}
+
+.shipping {
+  text-transform: uppercase;
+  color: grey;
+  font-weight: bold;
+  font-size: 12px;
+  /* margin-bottom: 15px; */
+  margin-top: -22px;
+  float: right;
+}
+
+.price {
+  font-size: 20px;
+}
+
+li {
+  list-style-type: square;
+  margin-bottom: 5px;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 2px 13px;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+  letter-spacing: 2px;
+}
+.colors {
+  margin-top: 23px;
+}
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+.color-red {
+  background-color: #ec2f2f;
+}
+.color-yellow {
+  background-color: #f0bf1e;
+}
+.color-green {
+  background-color: #90cc20;
+}
+.color-brown {
+  background-color: #885214;
+}
+
+.first-layout {
+  float: left;
+  width: 300px;
+}
+.second-layout {
+  margin-top: 21px;
+  float: left;
+  width: 258px;
+}
+
+.third-layout {
+  float: right;
+  width: 227px;
+  margin-top: 21px;
+}
+
+.paragraph {
+  margin-top: 10px;
+}
+
+.moreInfo {
+  display: inline-block;
+  margin-top: 11px;
+}
